@@ -11,6 +11,7 @@ const ColorPickerList = ({ color,btnBgColorHandler}) => {
       onClick={(e)=>btnBgColorHandler(e.target.value)}
       >
       {val}  
+      <button>hello</button>
     </button>
   ));
   return (
